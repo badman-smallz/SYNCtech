@@ -1,0 +1,215 @@
+/* Global Styles */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Menu */
+  .navbar {
+    background-color: #293241;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 35px;
+   }
+  
+  /* About Section */
+  .about {
+    background-image: url("https://i.pinimg.com/236x/74/5b/e4/745be4efc32c7cb7e2921095cd32647e.jpg");
+    color: #1e1e1e;
+    text-align: center;
+    /* padding: 40px 40px; */
+    margin-top: 80px;
+    height: 350px; /* Add margin to account for fixed header */
+  }
+  
+  /* Schedule and Agenda Section */
+  .schedule {
+    background-color: rgb(74, 74, 168);
+    color: #1e1e1e;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Sessions and Workshops Section */
+  .sessions {
+    background-color: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Keynote Speakers Section */
+  .keynote {
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Sponsors and Partners Section */
+  .sponsors {
+    background-color: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Venue Information Section */
+  .venue {
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* FAQs Section */
+  .faqs {
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Contact Information Section */
+  .contact {
+    background-color: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Social Media Integration Section */
+  .social-media {
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 85px; /* Add margin to account for fixed header */
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Custom Styling */
+  .new-class1 {
+    font-weight: bold;
+  }
+ 
+  /* Custom CSS for accordion animation */
+.collapse.show {
+    transition: height 0.3s ease-in-out;
+  }
+  /* Featured Speakers Section */
+.speakers {
+    background-color: #293241;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0; /* Increase the padding for more height */
+  }
+  
+  .speaker-card {
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Redesign the image size */
+  .speaker-card img {
+    width: 100px; /* Adjust width as needed */
+    height: 150px; /* Adjust height for portrait size */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Make the image round */
+  }
+/* Custom CSS to change text color in accordion */
+.accordion {
+    color: #333; /* Change this to your desired text color */
+}
+
+.accordion .card-header button {
+    color: #555; /* Change this to your desired text color */
+}
+
+.accordion .card-body {
+    color: #777; /* Change this to your desired text color */
+}
+/* Schedule and Agenda Section */
+.schedule {
+  /* ... other styles ... */
+  background-color: #f9f9f9;
+}
+
+.schedule-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.schedule-day {
+  width: 48%; /* Adjust the width as needed */
+}
+
+.schedule-day h3 {
+  color: #293241;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.schedule-day ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.schedule-day ul li {
+  margin-bottom: 0.5rem;
+}
+
+.schedule-day ul li:before {
+  content: "\2022"; 
+  color: #ff6f61;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+  .schedule-wrapper {
+      flex-direction: column;
+  }
+
+  .schedule-day {
+      width: 100%;
+      margin-bottom: 1.5rem;
+  }
+}
+.blue{
+  border: #293241 solid 2px;
+  background-color: #293241;
+  color: white;
+}
+
+.pablo {
+  width: 150px; 
+  height: auto; 
+}
